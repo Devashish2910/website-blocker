@@ -8,7 +8,7 @@ block_list = ["www.facebook.com", "facebook.com"]
 
 while True:
     # During working hours
-    if dt(dt.now().year, dt.now().month, dt.now().day, 0) < dt.now() < dt(dt.now().year, dt.now().month, dt.now().day, 23, 59):
+    if dt(dt.now().year, dt.now().month, dt.now().day, 8) < dt.now() < dt(dt.now().year, dt.now().month, dt.now().day, 23):
         print("Working Hours..🧐")
         with open(host_path, 'r+') as file:
             content = file.read()
