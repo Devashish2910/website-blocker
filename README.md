@@ -14,6 +14,8 @@ A small practice project with Python, to block unwanted websites during a day fo
 > - Open the `Terminal` and navigate to the project folder root 
 >  - Now...   if python3: `sudo python3 wb.py` 	  else: `sudo python wb.py`
 
+- Go to browser, open the **URL** and see the magic 🧙🏽‍♀️
+
 
  
 ## Future Task: 🤘🏽🤔
